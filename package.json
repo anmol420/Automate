@@ -1,0 +1,31 @@
+{
+  "name": "automate",
+  "version": "0.0.1",
+  "description": "A NPM Package to Automate CronJob.",
+  "keywords": [
+    "automate",
+    "cron-job",
+    "npm"
+  ],
+  "homepage": "https://github.com/anmol420/Automate#readme",
+  "bugs": {
+    "url": "https://github.com/anmol420/Automate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmol420/Automate.git"
+  },
+  "license": "MIT",
+  "author": "anmol420",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "node dist/index.js",
+    "pack": "npm pack --pack-destination ./packs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
