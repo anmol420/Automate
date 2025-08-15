@@ -18,9 +18,12 @@
   "license": "MIT",
   "author": "anmol420",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "node dist/index.js"
+    "build": "npx tsc",
+    "dev": "node dist/index.js",
+    "pack": "npm pack --pack-destination ./packs"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
