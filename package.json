@@ -23,9 +23,12 @@
   "scripts": {
     "build": "npx tsc",
     "dev": "node dist/index.js",
-    "pack": "npm pack --pack-destination ./packs"
+    "pack:save": "npm pack --pack-destination ./packs"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "ioredis": "^5.7.0"
   }
 }
