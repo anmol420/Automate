@@ -1,3 +1,7 @@
-export function greet(name: string) {
-    console.log("Hello", name);
-}
+import { connectRedis, getRedis, disconnectRedis } from "./redisConnection/redis.js";
+
+export {
+    connectRedis,
+    getRedis,
+    disconnectRedis,
+};
