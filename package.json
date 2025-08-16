@@ -1,5 +1,5 @@
 {
-  "name": "automate",
+  "name": "cron-automate",
   "version": "0.0.1",
   "description": "A NPM Package to Automate CronJob.",
   "keywords": [
@@ -7,13 +7,13 @@
     "cron-job",
     "npm"
   ],
-  "homepage": "https://github.com/anmol420/Automate#readme",
+  "homepage": "https://github.com/anmol420/cron-automate#readme",
   "bugs": {
-    "url": "https://github.com/anmol420/Automate/issues"
+    "url": "https://github.com/anmol420/cron-automate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmol420/Automate.git"
+    "url": "git+https://github.com/anmol420/cron-automate.git"
   },
   "license": "MIT",
   "author": "anmol420",

@@ -1,4 +1,4 @@
-import { connectRedis } from "automate";
+import { connectRedis } from "cron-automate";
 
 // redis running on docker
 const connection = () => connectRedis("redis://localhost:6379");
