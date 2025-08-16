@@ -1,4 +1,4 @@
-import { getRedis, disconnectRedis } from "automate";
+import { getRedis, disconnectRedis } from "cron-automate";
 
 import connection from "./redisCon/redisConnect.js";
 

@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "anmol420",
   "type": "module",
   "dependencies": {
-    "automate": "file:../packs/automate-0.0.1.tgz"
+    "cron-automate": "file:../packs/cron-automate-0.0.1.tgz"
   }
 }
