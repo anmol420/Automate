@@ -1,5 +1,5 @@
 {
-  "name": "cron-automate",
+  "name": "oneoff-automate",
   "version": "0.0.1",
   "description": "A NPM Package to Automate CronJob.",
   "keywords": [
