@@ -1,19 +1,23 @@
 {
-  "name": "oneoff-automate",
-  "version": "0.0.1",
-  "description": "A NPM Package to Automate CronJob.",
+  "name": "@anmol420/automate",
+  "version": "1.0.0",
+  "description": "A NPM Package to Automate Tasks.",
   "keywords": [
     "automate",
     "cron-job",
-    "npm"
+    "npm",
+    "oneoff-scheduler",
+    "redis",
+    "task-scheduler",
+    "cron"
   ],
-  "homepage": "https://github.com/anmol420/cron-automate#readme",
+  "homepage": "https://github.com/anmol420/automate#readme",
   "bugs": {
-    "url": "https://github.com/anmol420/cron-automate/issues"
+    "url": "https://github.com/anmol420/automate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmol420/cron-automate.git"
+    "url": "git+https://github.com/anmol420/automate.git"
   },
   "license": "MIT",
   "author": "anmol420",
