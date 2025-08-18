@@ -1,4 +1,4 @@
-import { getRedis, disconnectRedis } from "cron-automate";
+import { redisConnect } from "./connections.js";
 
 import connection from "./redisCon/redisConnect.js";
 
@@ -7,7 +7,7 @@ import connection from "./redisCon/redisConnect.js";
         connection();
 
         // get redis connection
-        const redis = getRedis();
+        const redis = redisConnect.getRedis();
 
         // setting value in redis
         await redis.set("hello", "buddy");
@@ -18,7 +18,7 @@ import connection from "./redisCon/redisConnect.js";
         console.log("Value -", value);
 
         // disconnect redis
-        await disconnectRedis();
+        await redisConnect.disconnectRedis();
     } catch (error) {
         console.log("Error:", error);
     }

@@ -10,7 +10,6 @@
   "author": "anmol420",
   "type": "module",
   "dependencies": {
-    "cron-automate": "file:../packs/cron-automate-0.0.1.tgz",
-    "oneoff-automate": "file:../packs/oneoff-automate-0.0.1.tgz"
+    "@anmol420/automate": "file:../packs/anmol420-automate-1.0.0.tgz"
   }
 }
