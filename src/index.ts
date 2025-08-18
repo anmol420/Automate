@@ -1,7 +1,1 @@
-import { connectRedis, getRedis, disconnectRedis } from "./redisConnection/redis.js";
-
-export {
-    connectRedis,
-    getRedis,
-    disconnectRedis,
-};
+export * from "./redisConnection/redis.js";

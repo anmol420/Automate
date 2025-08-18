@@ -1,6 +1,6 @@
-import { connectRedis } from "cron-automate";
+import { redisConnect } from "../connections.js";
 
 // redis running on docker
-const connection = () => connectRedis("redis://localhost:6379");
+const connection = () => redisConnect.connectRedis("redis://localhost:6379");
 
 export default connection;
