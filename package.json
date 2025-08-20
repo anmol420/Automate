@@ -1,6 +1,6 @@
 {
   "name": "@anmol420/automate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A NPM Package to Automate Tasks.",
   "keywords": [
     "automate",
@@ -30,9 +30,11 @@
     "pack:save": "npm pack --pack-destination ./packs"
   },
   "devDependencies": {
+    "@types/node": "^24.3.0",
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "ioredis": "^5.7.0"
+    "ioredis": "^5.7.0",
+    "uuid": "^11.1.0"
   }
 }
